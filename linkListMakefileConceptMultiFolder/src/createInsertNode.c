@@ -1,6 +1,5 @@
 #include <stdlib.h>
-#include"header.h"
-
+#include"/home/abodh/PureSoftware/PS_Abodh/linkList/linkListMakefileConceptMultiFolder/header/header.h"
 struct Node* createNode(int data)
 {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));

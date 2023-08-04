@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include"header.h"
+#include"/home/abodh/PureSoftware/PS_Abodh/linkList/linkListMakefileConceptMultiFolder/header/header.h"
 
 void deleteGivenKey(struct Node** currentHead, int key)
 {
