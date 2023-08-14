@@ -1,7 +1,11 @@
  
 
 # Compiler
-CC = gcc
+CC = /home/abodh/foxspace/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
+
+
+
+
 
 # Compiler flags
 CFLAGS = -Wall -Wextra
@@ -25,7 +29,7 @@ TARGET = my_program
 
 # Rule to build the executable
 $(TARGET): $(OBJ_FILES)
-	$(CC) $(CFLAGS) $^ -o $@
+	$(CC) $(CFLAGS) $^ -o $(TARGET)
 
 # Rule to compile source files into object files
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c | $(BUILD_DIR)
